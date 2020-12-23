@@ -1,12 +1,12 @@
-* {margin: 0 ; 
-  padding: 0;
-  
-  
+*{	margin: 0 ; 
+	padding: 0;
 }
-body {
+
+body{
 	font-family: AppleGothic;
 }
-nav {
+
+nav{
 	background-color: rgba(7, 5, 5, 0.100);
     width: 100%;
     height: 5rem;
@@ -14,22 +14,26 @@ nav {
 	border-bottom-style: solid;
 	font-size: 18px;
 }
-nav ul { 
+
+nav ul{ 
 	float: left;
 	margin: 1rem;
 	z-index: 3;
- }
- nav ul li{
+}
+
+nav ul li{
  	float:left;
  	list-style: none;
 	 position: relative;
 	
- }
+}
+
 .buton{
 	width: 250px;
 	height: 150px;
-	
+
 }
+
 nav h1{
 	padding: 1rem 2rem;
 	float: left;
@@ -38,6 +42,7 @@ nav h1{
 	border-radius: 15px 50px;
 	
 }
+
 nav ul li a{
     display: block;
     padding: 1rem;
@@ -46,49 +51,55 @@ nav ul li a{
 	text-decoration: underline;
 		
 }
-nav ul li ul {
+
+nav ul li ul{
 	display: none;
 	position: absolute;
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
 	z-index: 3;
 }
-nav ul li:hover ul { 
+
+nav ul li:hover ul{ 
 	display: block;
- }
- nav ul li ul li {
+}
+
+nav ul li ul li{
  	width: 100%;
- }
- nav ul li ul li a {
+}
+
+nav ul li ul li a{
  	padding: 1rem 2 rem;
  	line-height: unset;
- 	white-space: nowrap;
- }
-  nav ul li ul li a:hover{
-	  background-color: #efefef;
- }
-  nav ul li ul li a{ 
+	white-space: nowrap;
+}
+
+nav ul li ul li a:hover{
+	background-color: #efefef;
+}
+
+nav ul li ul li a{ 
   	border:#9C8E8B 2px solid;
-  }
+}
+
 article{
 	margin: auto;
 	padding: 0%;
 	top: 100%;
 }
-.img1 
-    {
+.img1{
 		
-		background-color: rgba(117, 109, 109, 0.450);
-		margin: 15px;
-		float: right;
-		width: 75%;
-		height: 500px;
-		text-align: left;
-		position: absolute right;
-	}
-.img2
-	{
-	    background-color: rgba(148, 52, 52, 0.45);
+	background-color: rgba(117, 109, 109, 0.450);
+	margin: 15px;
+	float: right;
+	width: 75%;
+	height: 500px;
+	text-align: left;
+	position: absolute right;
+}
+
+.img2{
+	background-color: rgba(148, 52, 52, 0.45);
     margin: 18px;
     float: left;
     width: 37%;
@@ -96,12 +107,13 @@ article{
     text-align: left;
     position: relative left;
 }
-.titulo { 
+
+.titulo{ 
 	margin: 0 auto;
 	display: none;
 }
-.titulo h1
-{
+
+.titulo h1{
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     color: black;
 	font-size: 35px;
@@ -113,6 +125,7 @@ article{
     padding: 17px;
     border: dashed 3PX black;
 }
+
 .frase p{
 	font-family: Century Gothic,CenturyGothic,AppleGothic;
 	font-size: 35px;
@@ -121,12 +134,12 @@ article{
 	border: dashed 1px white;
 	margin: auto;
 	padding: 0%;
-
 }
-footer {margin: 0;
+
+footer{margin: 0;
 	background-color: gray;
 	bottom: 0;
 	width: 100%;
 	height: 205px;
 	color: white;
-  }
+}
