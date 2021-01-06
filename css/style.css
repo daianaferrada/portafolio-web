@@ -83,9 +83,12 @@ nav ul li ul li a{
 }
 
 article{
+	position: relative;
 	margin: auto;
 	padding: 0%;
 	top: 100%;
+	height: 100%;
+	width: 100%;
 }
 .img1{
 		
@@ -105,7 +108,7 @@ article{
     width: 37%;
     height: 401px;
     text-align: left;
-    position: relative left;
+    position: absolute;
 }
 
 .titulo{ 
@@ -125,21 +128,35 @@ article{
     padding: 17px;
     border: dashed 3PX black;
 }
+.frase {
+	padding: 0%;
+	margin: 0%;
+	position: absolute;
+
+}
 
 .frase p{
 	font-family: Century Gothic,CenturyGothic,AppleGothic;
 	font-size: 35px;
-	text-align: center;
+	text-align: left;
 	color: blanchedalmond;
 	border: dashed 1px white;
-	margin: auto;
+	margin: 0px;
 	padding: 0%;
+	position: relative;
+}
+.titulo h1 {
+	font-size: 10px;
+	text-align: center;
+	color: black ;
+	position: absolute;
 }
 
-footer{margin: 0;
-	background-color: gray;
+.footer {
+	background-color: black;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
-	height: 205px;
+	height: 40px;
 	color: white;
-}
+  }
