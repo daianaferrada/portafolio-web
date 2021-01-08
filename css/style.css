@@ -5,13 +5,18 @@
 body{
 	font-family: AppleGothic;
 }
-
+header  h1{
+	text-align: center;
+	border: black 5px inset;
+	background-color: rgba(7, 5, 5, 0.100);
+	
+}
 nav{
 	background-color: rgba(7, 5, 5, 0.100);
     width: 100%;
     height: 5rem;
     display: flex;
-	border-bottom-style: solid;
+	border: black 5px double;
 	font-size: 18px;
 }
 
@@ -24,13 +29,6 @@ nav ul{
 nav ul li{
  	float:left;
  	list-style: none;
-	 position: relative;
-	
-}
-
-.buton{
-	width: 250px;
-	height: 150px;
 
 }
 
@@ -54,7 +52,6 @@ nav ul li a{
 
 nav ul li ul{
 	display: none;
-	position: absolute;
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
 	z-index: 3;
@@ -83,7 +80,6 @@ nav ul li ul li a{
 }
 
 article{
-	position: relative;
 	margin: auto;
 	padding: 0%;
 	top: 100%;
@@ -91,24 +87,22 @@ article{
 	width: 100%;
 }
 .img1{
-		
+
 	background-color: rgba(117, 109, 109, 0.450);
-	margin: 15px;
-	float: right;
-	width: 75%;
-	height: 500px;
-	text-align: left;
-	position: absolute right;
+    margin: 2%;
+    float: right;
+    width: 75%;
+    height: 500px;
+    text-align: left;
 }
 
 .img2{
-	background-color: rgba(148, 52, 52, 0.45);
+	position: absolute;
     margin: 18px;
     float: left;
     width: 37%;
     height: 401px;
     text-align: left;
-    position: absolute;
 }
 
 .titulo{ 
@@ -129,34 +123,58 @@ article{
     border: dashed 3PX black;
 }
 .frase {
-	padding: 0%;
-	margin: 0%;
-	position: absolute;
-
+	right: 187px;
+    text-align: center;
+    padding: 0%;
+    margin-left: 33%;
 }
 
 .frase p{
-	font-family: Century Gothic,CenturyGothic,AppleGothic;
-	font-size: 35px;
-	text-align: left;
-	color: blanchedalmond;
-	border: dashed 1px white;
-	margin: 0px;
-	padding: 0%;
-	position: relative;
-}
-.titulo h1 {
-	font-size: 10px;
-	text-align: center;
-	color: black ;
-	position: absolute;
-}
+	font-style: italic;
+    font-size: 38px;
+    text-align: left;
+    color: black;
+ }
 
+.articulo2 p:first-child{ 
+	font-variant: small-caps;
+	text-align: center;
+    font-size: 55px;
+	border-bottom: black 10rem;
+	text-decoration: underline;
+ }
+.grilla {
+	margin-left: 4%;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 50px;
+	padding: 3%;
+	margin-top: 3%;
+}
+.me {
+	padding: 0%;
+	margin: 5%;
+}
+.me p:first-child {
+	font-size: 55px;
+	text-align: center;
+	font-variant:small-caps;
+	text-decoration: underline;
+	border-bottom: black 10rem;
+}
+.certificated {
+	margin: 5%;
+	padding: 0%;
+}
+.certificated p a{
+	color: black;
+	text-align: center;
+}
 .footer {
 	background-color: black;
-	position: fixed;
 	bottom: 0;
 	width: 100%;
 	height: 40px;
 	color: white;
-  }
+	position: absoluted;
+}
